@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techy Jaunt assignment</title>
+    <style>
+        * {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        header {
+            width: 100%;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background: #121212;
+        }
+
+        .brand {
+            color: white;
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 5px;
+            font-size: 18px;
+        }
+
+        li a {
+            color: #f5f5f5;
+        }
+
+        header h1 {
+            margin-top: 20px;
+            text-transform: uppercase;
+            word-spacing: 8px;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .image img {
+            height: 400px;
+            width: 400px;
+        }
+
+        .to_top {
+            position: fixed;
+            right: 70px;
+            text-decoration: none;
+            font-size: 23px;
+            font-weight: bold;
+            background: black;
+            padding: 10px;
+            color: wheat;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="top">
+        <nav>
+            <div class="brand">Logo</div>
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="about.html">About</a></li>
+                <li> <a href="contact.html">Contact</a> </li>
+            </ul>
+        </nav>
+
+        <h1 class="text-center">Code with ease with codeStorm</h1>
+    </header>
+
+    <main>
+        <div class="image">
+            <img src="./images/sideview.jpg" alt="" />
+        </div>
+        <div class="image">
+            <img src="./images/upview.jpg" alt="" />
+        </div>
+
+        <a href="#top" class="to_top">&UpArrow;</a>
+    </main>
+</body>
+
+</html>
